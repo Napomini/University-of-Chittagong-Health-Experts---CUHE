@@ -1,3 +1,5 @@
+
+<!-- user cancels appointment start -->
 <?php
 session_start();
 error_reporting(0);
@@ -10,6 +12,8 @@ if(isset($_GET['cancel']))
                   $_SESSION['msg']="Your appointment canceled !!";
 		  }
 ?>
+<!-- user cancels appointment end -->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
